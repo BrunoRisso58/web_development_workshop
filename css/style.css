@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    width: 70%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #EFD81D;
+    color: black;
+    text-align: center;
+    padding: 7px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section {
+    height: 500px;
+    background-image: url("../images/development.jpg");
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.subscribe_form {
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 250px;
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.title_form {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description_form {
+    font-size: 16px;
+}
+
+.input {
+    width: 225px;
+    padding: 10px;
+    margin-bottom: 7px;
+    border: none;
+    border-radius: 2px;
+}
+
+#select_state {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 245px;
+    background-color: white;
+    background-image: url("../images/arrow.jpg");
+    background-repeat: no-repeat;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+#submit {
+    width: 245px;
+    background-color: #EFD81D;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: black;
+    transition: .2s;
+    color: #EFD81D
+}
+
+.about_section {
+    text-align: center;
+    background-color: #1D1E1F;
+    padding: 30px;
+}
+
+#face {
+    width: 200px;
+    float: center;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+.about_content {
+    color: white;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.about_content h3 {
+    font-size: 22px
+}
+
+.about_content p {
+    font-size: 16px;
+}

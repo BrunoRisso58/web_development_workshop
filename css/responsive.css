@@ -1,0 +1,27 @@
+@media screen and (max-width: 1050px) {
+
+    body {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .subscribe_form {
+        margin: auto;
+    }
+
+    #face {
+        float: none;
+        width: 200px;
+        margin: 0;
+    }
+
+    .about_content {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+}
